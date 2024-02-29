@@ -1,9 +1,12 @@
-
-function Product({title,price,features}){
+import Price from "./price";
+function Product()
+{
     return(
-        <div className='Product'>
-<p>product</p>
+        <div>
+<p>Title</p>
+<p>Description</p>
+<Price />
         </div>
     )
 }
-export default Product
+export default Product;

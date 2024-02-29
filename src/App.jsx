@@ -1,16 +1,16 @@
 import React from "react";
 import "./App.css";   
 import Card from "./components/Card";
-import Product from "./components/Product";
+import ProductTab from "./components/productTab";
+import Button from "./components/button";
+import Form from "./components/form"
 
 function App(){
-  return (<>
- 
-<Product/>
-<Product/>
-<Product/>
-<Product/>
-<Product/>
+  return (
+  <>
+ <ProductTab/>
+ <Button/>
+ <Form/>
 </>
   );
   }
