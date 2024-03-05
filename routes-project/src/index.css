@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.bg{
+    background-image: url('./images/pexels-tyler-lastovich-1275929.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
