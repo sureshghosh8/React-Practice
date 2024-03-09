@@ -9,6 +9,7 @@ import Contact from './components/contact/contact.jsx'
 import User from './components/User/User.jsx'
 import Github from './components/github/github.jsx'
 import Login from './components/login/Login.jsx'
+import Register from './components/register/Register.jsx'
 
 //const router=createBrowserRouter([{
 //path:'/',element:<Layout/>,
@@ -36,6 +37,7 @@ const router=createBrowserRouter(
       <Route path='github' element={<Github/>}/>
      
       <Route path='Login'element={<Login/>}/>
+      <Route path='Register' element={<Register/>}/>
 
     </Route>
   )
