@@ -8,12 +8,14 @@ import LudoBoard from "./components/LudoBoard";
 import TodoList from "./components/TodoList";
 import PasswordGenerator from "./components/PasswordGenerator";
 import Component1 from "./components/useContext";
+import Controlled from "./components/controlled";
 
 function App(){
   return (
   <>
-  <PasswordGenerator/>
+  
   <Component1/>
+  <Controlled/>
  
 </>
   );
