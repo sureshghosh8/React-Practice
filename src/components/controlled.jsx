@@ -12,7 +12,7 @@ function Controlled() {
 
 	return (
 		<div className="App">
-			<h1 className="geeks">GeeksForGeeks</h1>
+			<h1 className="geeks">Welcome to react</h1>
 			<h3>Controlled Component</h3>
 			<form onSubmit={handleSubmit}>
 				<label>Name:</label>

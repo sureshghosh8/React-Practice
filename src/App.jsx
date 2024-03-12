@@ -9,6 +9,7 @@ import TodoList from "./components/TodoList";
 import PasswordGenerator from "./components/PasswordGenerator";
 import Component1 from "./components/useContext";
 import Controlled from "./components/controlled";
+import Uncontrolled from "./components/uncontrolled";
 
 function App(){
   return (
@@ -16,6 +17,7 @@ function App(){
   
   <Component1/>
   <Controlled/>
+  <Uncontrolled/>
  
 </>
   );
