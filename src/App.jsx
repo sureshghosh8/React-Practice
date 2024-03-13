@@ -10,14 +10,13 @@ import PasswordGenerator from "./components/PasswordGenerator";
 import Component1 from "./components/useContext";
 import Controlled from "./components/controlled";
 import Uncontrolled from "./components/uncontrolled";
+import Memo from "./components/memo";
 
 function App(){
   return (
   <>
   
-  <Component1/>
-  <Controlled/>
-  <Uncontrolled/>
+  <Memo/>
  
 </>
   );
