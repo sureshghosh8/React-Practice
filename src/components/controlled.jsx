@@ -1,8 +1,4 @@
-// FileName - App.js
-
 import { useState } from "react";
-
-
 function Controlled() {
 	const [name, setName] = useState("");
 
@@ -30,3 +26,4 @@ function Controlled() {
 }
 
 export default Controlled;
+
